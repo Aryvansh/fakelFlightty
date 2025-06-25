@@ -1,0 +1,127 @@
+.popular-stays1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: var(--font-roboto);
+  color: var(--color-darkslategray-300);
+  text-align: left;
+  width: 69.08rem;
+}
+.popular-stays-title {
+  flex: 1;
+  position: relative;
+  height: 2.19rem;
+}
+.view-all-stays {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+  display: inline-block;
+  width: 8.79rem;
+  flex-shrink: 0;
+}
+.arrow-right-icon4 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.view-all-stays-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  border-radius: var(--br-2xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.hotel-cards,
+.popular-stays-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-cards {
+  justify-content: flex-start;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+.view-all-stays1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+  display: inline-block;
+  width: 8.79rem;
+  flex-shrink: 0;
+}
+.mobile-view-all-stays,
+.popular-stays {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobile-view-all-stays {
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.popular-stays {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1200px) {
+  .hotel-cards {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+    margin-left: -0.75rem;
+    margin-right: -3.12rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .view-all-stays-button {
+    display: none;
+  }
+  .hotel-cards {
+    margin-right: -3.12rem;
+    margin-left: -0.75rem;
+  }
+  .view-all-stays1 {
+    width: auto;
+  }
+  .mobile-view-all-stays {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .popular-stays1 {
+    font-size: var(--font-size-3xl);
+  }
+  .hotel-cards {
+    flex-direction: column;
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+  }
+}

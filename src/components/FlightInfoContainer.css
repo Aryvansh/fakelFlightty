@@ -1,0 +1,190 @@
+.turkish-icon {
+  position: relative;
+  width: 2.17rem;
+  height: 2.88rem;
+}
+.singapore-airlines {
+  position: relative;
+  letter-spacing: 0.26px;
+}
+.airline-section {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.am,
+.sin1 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.am {
+  width: 100%;
+  top: 0;
+  letter-spacing: 0.32px;
+  font-weight: 500;
+}
+.sin1 {
+  width: 79.51%;
+  top: 63.46%;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.26px;
+  color: var(--color-dimgray-100);
+}
+.departure-details1 {
+  position: relative;
+  width: 5.81rem;
+  height: 3.25rem;
+}
+.flighticon {
+  position: absolute;
+  height: 27.46%;
+  width: 88.52%;
+  top: 0;
+  right: 5.5%;
+  bottom: 72.54%;
+  left: 5.98%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.h-55m-non-stop {
+  position: absolute;
+  top: 65.45%;
+  left: 0;
+  letter-spacing: 0.21px;
+}
+.flightduration,
+.sin2 {
+  font-size: var(--font-size-base);
+}
+.flightduration {
+  position: relative;
+  width: 7.56rem;
+  height: 3.44rem;
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.sin2 {
+  position: absolute;
+  width: 81.25%;
+  top: 63.46%;
+  left: 17.65%;
+  letter-spacing: 0.26px;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+.arrival-details {
+  position: relative;
+  width: 5.69rem;
+  height: 3.25rem;
+  text-align: right;
+}
+.flight-details-section {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 64%;
+  font-size: var(--font-size-2xl);
+  color: var(--color-cornflowerblue-200);
+}
+.price-section-child {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 6.25rem;
+}
+.s-730 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.34px;
+}
+.flight-card,
+.price-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.price-section {
+  width: 8rem;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-orange-100);
+}
+.flight-card {
+  align-self: stretch;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-lightgray);
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1100px) {
+  .airline-section {
+    flex-direction: column;
+  }
+  .flight-details-section {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 650px) {
+  .turkish-icon {
+    transform: scale(0.8);
+  }
+  .airline-section {
+    flex-direction: row;
+    width: 100% !important;
+    margin-left: 2.5rem;
+  }
+  .flightduration {
+    transform: scale(0.9);
+  }
+  .flight-details-section {
+    width: 90%;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    margin-right: 0 !important;
+    flex: unset;
+    align-self: stretch;
+  }
+  .price-section-child {
+    display: none;
+  }
+  .flight-card {
+    flex-direction: column;
+    padding: var(--padding-2xs) 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .am,
+  .sin1 {
+    font-size: var(--font-size-base);
+  }
+  .departure-details1 {
+    width: 5rem;
+  }
+  .h-55m-non-stop {
+    font-size: var(--font-size-2xs);
+  }
+  .sin2 {
+    font-size: var(--font-size-base);
+  }
+  .arrival-details {
+    width: 5rem;
+  }
+  .flight-details-section {
+    width: 90%;
+  }
+}

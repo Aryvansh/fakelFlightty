@@ -1,0 +1,357 @@
+.newsletter-section-background {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 33.13rem;
+  object-fit: cover;
+}
+.form-title,
+.form-title-subtext {
+  align-self: stretch;
+  position: relative;
+}
+.form-title-subtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.form-title {
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+}
+.form-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fill-in-your {
+  align-self: stretch;
+  position: relative;
+  line-height: 2.13rem;
+}
+.form-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.form-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.46px;
+  line-height: 1.63rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.unstyledbutton {
+  overflow: hidden;
+  padding: var(--padding-9xs) var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.form,
+.subscribe-form,
+.unstyledbutton {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  border-radius: var(--br-3xs);
+  width: 10.25rem;
+  height: 3.5rem;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-darkorange);
+}
+.form,
+.subscribe-form {
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-whitesmoke);
+  padding: var(--padding-xl) var(--padding-2xl);
+  align-items: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  color: var(--color-slategray);
+}
+.subscribe-form {
+  position: relative !important;
+  top: 3.25rem;
+  left: auto !important;
+  width: 34.31rem;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter-form-section {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  height: 33.06rem;
+  overflow: hidden;
+}
+.logo-icon {
+  position: relative;
+  width: 10.88rem;
+  height: 2.06rem;
+  overflow: hidden;
+}
+.fickle-flight-is {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.69rem;
+}
+.social-icons {
+  position: relative;
+  width: 8.13rem;
+  height: 1.88rem;
+}
+.fickleflight-bio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  margin-bottom: 40px !important;
+}
+.seperator {
+  position: relative;
+  border-right: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 0.06rem;
+  height: 9.87rem;
+}
+.about-us {
+  top: 2.99rem;
+  width: 8.48rem;
+}
+.about-us,
+.careers,
+.company1,
+.how-we-work,
+.news {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 10.92rem;
+}
+.careers,
+.how-we-work,
+.news {
+  top: 4.92rem;
+  width: 5.27rem;
+}
+.careers,
+.how-we-work {
+  top: 6.86rem;
+  width: 7.19rem;
+}
+.how-we-work {
+  top: 8.8rem;
+  width: 12.33rem;
+}
+.company {
+  position: relative;
+  width: 12.33rem;
+  height: 9.99rem;
+}
+.account,
+.support1 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.account {
+  top: 2.99rem;
+  width: 6.85rem;
+}
+.support1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 8.22rem;
+}
+.accessibility,
+.faq,
+.support-center {
+  position: absolute;
+  top: 4.92rem;
+  left: 0;
+  display: inline-block;
+  width: 12.33rem;
+}
+.accessibility,
+.faq {
+  top: 6.86rem;
+  width: 3.31rem;
+}
+.accessibility {
+  top: 8.8rem;
+  width: 10.28rem;
+}
+.covid-advisory {
+  top: 2.99rem;
+  width: 10.8rem;
+}
+.airline-fees,
+.covid-advisory,
+.more1,
+.tips {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.more1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 4.79rem;
+}
+.airline-fees,
+.tips {
+  top: 4.92rem;
+  width: 8.46rem;
+}
+.tips {
+  top: 6.86rem;
+  width: 3.16rem;
+}
+.more {
+  position: relative;
+  width: 12.33rem;
+  height: 9.99rem;
+}
+.footer-links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+}
+.footer,
+.footer-section {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-roboto);
+}
+.footer {
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-8xl);
+  gap: var(--gap-9xl);
+  text-align: left;
+  color: var(--color-white);
+}
+.footer-section {
+  flex-direction: column;
+  text-align: center;
+  color: var(--color-cornflowerblue-300);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .subscribe-form {
+    padding: var(--padding-md) 0;
+    box-sizing: border-box;
+  }
+  .fickleflight-bio {
+    flex: unset;
+    align-self: stretch;
+  }
+  .seperator {
+    display: none;
+  }
+  .footer-links {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-4xl) var(--padding-md) var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .button {
+    width: 100%;
+  }
+  .button:hover {
+    background-color: var(--color-orange-200);
+  }
+  .subscribe-form {
+    padding-left: var(--padding-md);
+    padding-right: var(--padding-md);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+  .company {
+    margin-bottom: 40px !important;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer {
+    padding: var(--padding-2xl) var(--padding-md);
+    box-sizing: border-box;
+  }
+}

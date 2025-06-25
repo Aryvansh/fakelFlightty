@@ -1,0 +1,28 @@
+.results1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 11.81rem;
+}
+.component-1formcheckbox {
+  position: absolute;
+  top: 3.13rem;
+  left: 0;
+}
+.booking-options,
+.component-1formcheckbox1 {
+  position: absolute;
+  top: 5.38rem;
+  left: 0;
+}
+.booking-options {
+  top: 14.46rem;
+  width: 13.81rem;
+  height: 6.63rem;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-roboto);
+}
